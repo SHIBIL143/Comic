@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics Story Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    
+    
+</head>
+
+<body>
+    <header>
+        <div class="logo">Comics Story Hub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Comics Story Hub</h1>
+            <p>Explore a world of amazing stories!</p>
+            <a href="#stories" class="cta-button">Read Stories</a>
+        </div>
+    </section>
+
+    <section id="stories" class="stories-section">
+        <h2>Our Stories</h2>
+        <div class="stories-container">
+            <div class="story-card">
+                <img src="images/story1.jpg" alt="Story 1">
+                <h3>Story Title 1</h3>
+                <p>
+                    One day, a rabbit named Mittu was sleeping under a tree when something suddenly hit him.
+                    Startled, Mittu woke up to find a stone nearby...
+                    <span class="more-text">
+                        He looked around and saw a bear cub laughing—it was the one who had thrown the stone! 
+                        Without saying anything, Mittu walked away. After some time, Mittu heard a cry for help. 
+                        Rushing to the source of the noise, he found the same bear cub, his face swollen from bee stings. 
+                        Feeling sorry for him, Mittu told the cub not to worry and went to fetch some herbal leaves. 
+                        He applied the remedy to the cub's face, and the pain quickly subsided. 
+                        Mittu then gently scolded the bear cub, reminding him that just like he had been bothering everyone, 
+                        he had also disturbed the bees. The bear cub agreed to stop his mischief from then on.
+                    </span>
+                </p>
+                <a href="javascript:void(0);" class="read-more" onclick="toggleText(this)">Read More</a>
+            </div>
+            <!-- Repeat for more stories -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Comics Story Hub is a place where you can read and enjoy a variety of comic stories.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="/send-email" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Comics Story Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
