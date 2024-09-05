@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 .hero-section {
-    background-image: url('images/hero-background.jpg');
+    background-image: url('https://comic.shibilgamer.online/images/hero-background.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
